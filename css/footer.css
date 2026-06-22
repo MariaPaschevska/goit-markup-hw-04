@@ -6,15 +6,32 @@
 
 .footer-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 120px;
 }
 
-.footer-content .logo {
-  margin-bottom: 16px;
+.footer-slogan {
+  width: 264px;
 }
 
 .footer-text {
   width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 16px;
+}
+
+.footer-social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-social-media .social-list {
+  gap: 16px;
+}
+
+.footer-social-media .social-link:hover,
+.footer-social-media .social-link:focus {
+  background-color: var(--success-color);
 }
