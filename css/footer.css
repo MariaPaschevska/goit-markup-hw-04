@@ -27,6 +27,10 @@
   flex-direction: column;
 }
 
+.footer-social-media .social-list {
+  gap: 16px;
+}
+
 .footer-social-title {
   font-weight: 500;
   font-size: 16px;
